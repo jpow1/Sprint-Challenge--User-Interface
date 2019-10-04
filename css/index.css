@@ -151,9 +151,6 @@ footer nav a {
     display:flex;
     justify-content: space-around;
     
-
-    
-    
  
 }
 
@@ -170,9 +167,10 @@ header nav a {
     text-align:center;
     flex-direction:row;
     
-    
-  
-    
+}
+header nav a:hover {
+    background-color:gray;
+    border-radius:10px;
 }
 
 .logo {
@@ -300,3 +298,18 @@ footer nav a {
 .strategy-content {
     padding:10px;
 }
+
+@keyframes footer-animation {
+    from {background-color: black;}
+    to {background-color: crimson;}
+  }
+
+  .footer1 {
+      background-color: black;
+      animation-name: footer-animation;
+      animation-duration:5s;
+      animation-delay:5s;
+      animation-iteration-count: 5;
+  }
+
+  
