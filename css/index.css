@@ -143,4 +143,173 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    padding:40px;
+    margin: 0 auto;
 }
+
+.header {
+    display:flex;
+    justify-content: space-around;
+    
+ 
+}
+
+.navigation {
+    padding:20px;
+    margin-top: 20px;
+     
+}
+
+header nav a {
+    text-decoration: none;
+    padding:30px;
+    color:black;
+    text-align:center;
+    flex-direction:row;
+    
+}
+header nav a:hover {
+    background-color:gray;
+    border-radius:10px;
+}
+
+.logo {
+    padding:10px;
+    margin:0 auto;
+    
+    
+}
+
+.opening-image {
+    padding:20px;
+    object-fit: contain;
+}
+
+#box1 {
+    background-color:teal;
+}
+
+#box2 {
+    background-color:gold;
+}
+
+#box3 {
+    background-color:cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-evenly;
+    border-top:2px dotted;
+    padding:10px;
+   
+}
+
+.second-section {
+    display:flex;
+    justify-content: space-evenly;
+    padding:10px;
+}
+
+/*.Places {
+    padding:20px;
+    border-bottom:1px dotted;
+}*/
+
+/*.Collaboration {
+    padding:20px;
+    border-bottom:1px dotted;
+
+}*/
+
+.final-section {
+    padding:20px;
+    border-top:1px dotted;
+}
+
+footer nav a {
+    padding:10px;
+    margin:0 10px;
+}
+
+.opening-image {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    text-decoration: none;
+    color:black;
+    padding:10px;
+    border:1px solid black;
+    border-radius:10px
+}
+
+.About {
+    padding:20px;
+}
+
+.body {
+        width:75%;
+        height:100%;
+        margin: 0 auto;
+}
+
+/*.collaboration-image {
+    padding:5px;
+}*/
+
+/*.places-image {
+    padding:10px;
+}*/
+
+.strategy-image {
+    padding:10px;
+}
+
+.strategy-content {
+    padding:10px;
+}
+
+@keyframes footer-animation {
+    from {background-color: black;}
+    to {background-color: crimson;}
+  }
+
+  .footer1 {
+      background-color: black;
+      animation-name: footer-animation;
+      animation-duration:5s;
+      animation-delay:5s;
+      animation-iteration-count: 5;
+  }
+
+  
