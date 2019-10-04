@@ -143,4 +143,73 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    padding:30px;
+    margin: 0 auto;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between
+ 
+}
+
+.navigation {
+    padding:20px;
+}
+
+header nav a {
+    text-decoration: none;
+    padding:30px;
+    color:black;
+    margin: 0 auto;
+}
+
+.logo {
+    padding:10px;
+    margin:0 auto;
+}
+
+.opening-image {
+    padding:20px;
+    object-fit: contain;
+}
+
+#box1 {
+    background-color:teal;
+}
+
+#box2 {
+    background-color:gold;
+}
+
+#box3 {
+    background-color:cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
 }
