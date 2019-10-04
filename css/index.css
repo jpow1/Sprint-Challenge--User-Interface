@@ -150,6 +150,8 @@ footer nav a {
 .header {
     display:flex;
     justify-content: space-between;
+    
+    
  
 }
 
@@ -162,7 +164,8 @@ header nav a {
     text-decoration: none;
     padding:30px;
     color:black;
-    margin:0 10px;
+    
+  
     
 }
 
@@ -267,7 +270,8 @@ footer nav a {
     padding:20px;
 }
 
-.Strategy {
-    object-fit: contain;
-    
+.body {
+        width:75%;
+        height:100%;
+        margin: 0 auto;
 }
