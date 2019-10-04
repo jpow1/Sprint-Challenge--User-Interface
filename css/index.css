@@ -149,11 +149,12 @@ footer nav a {
 
 .header {
     display:flex;
-    justify-content: space-between
+    justify-content: space-between;
  
 }
 
 .navigation {
+   
     padding:20px;
 }
 
@@ -161,7 +162,8 @@ header nav a {
     text-decoration: none;
     padding:30px;
     color:black;
-    margin: 0 auto;
+    margin:0 10px;
+    
 }
 
 .logo {
@@ -212,4 +214,60 @@ header nav a {
 
 #box10 {
     background-color: dodgerblue;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-evenly;
+    border-top:2px dotted;
+    padding:10px;
+   
+}
+
+.second-section {
+    display:flex;
+    justify-content: space-evenly;
+    padding:10px;
+}
+
+.Places {
+    padding:20px;
+    border-bottom:1px dotted;
+}
+
+.Collaboration {
+    padding:20px;
+    border-bottom:1px dotted;
+
+}
+
+.final-section {
+    padding:20px;
+}
+
+footer nav a {
+    padding:10px;
+    margin:0 10px;
+}
+
+.opening-image {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    text-decoration: none;
+    color:black;
+    padding:10px;
+    border:1px solid black;
+    border-radius:10px
+}
+
+.About {
+    padding:20px;
+}
+
+.Strategy {
+    object-fit: contain;
+    
 }
