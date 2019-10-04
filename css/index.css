@@ -143,20 +143,20 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-    padding:30px;
+    padding:40px;
     margin: 0 auto;
 }
 
 .header {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around
+
     
     
  
 }
 
 .navigation {
-   
     padding:20px;
 }
 
@@ -164,6 +164,7 @@ header nav a {
     text-decoration: none;
     padding:30px;
     color:black;
+    text-align:center;
     
   
     
@@ -233,19 +234,20 @@ header nav a {
     padding:10px;
 }
 
-.Places {
+/*.Places {
     padding:20px;
     border-bottom:1px dotted;
-}
+}*/
 
-.Collaboration {
+/*.Collaboration {
     padding:20px;
     border-bottom:1px dotted;
 
-}
+}*/
 
 .final-section {
     padding:20px;
+    border-top:1px dotted;
 }
 
 footer nav a {
@@ -274,4 +276,20 @@ footer nav a {
         width:75%;
         height:100%;
         margin: 0 auto;
+}
+
+/*.collaboration-image {
+    padding:5px;
+}*/
+
+/*.places-image {
+    padding:10px;
+}*/
+
+.strategy-image {
+    padding:10px;
+}
+
+.strategy-content {
+    padding:10px;
 }
